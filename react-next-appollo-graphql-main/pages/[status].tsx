@@ -61,7 +61,7 @@ export default function Home() {
     );
 }
 
-export const getServerSideProps: GetServerSideProps = async (context) => {
+/*export const getServerSideProps: GetServerSideProps = async (context) => {
     const status =
         typeof context.params?.status === 'string'
             ? context.params.status
@@ -82,4 +82,4 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
         };
     }
     return { props: {} };
-};
+};*/
