@@ -30,7 +30,7 @@ const UpdateTask = () => {
   );
 };
 
-export const getServerSideProps: GetServerSideProps = async (context) => {
+/*export const getServerSideProps: GetServerSideProps = async (context) => {
   const id =
     typeof context.params?.id === 'string'
       ? parseInt(context.params.id, 10)
@@ -44,7 +44,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
     return { props: { initialApolloState: apolloClient.cache.extract() } };
   }
   return { props: {} };
-};
+};*/
 
 export default UpdateTask;
 
