@@ -32,6 +32,7 @@ export default function Home() {
           ) : (
             <p className="no-tasks-message">You&apos;ve got no tasks</p>
           )}
+          <TaskFilter />
       </div>
     </div>
   )
